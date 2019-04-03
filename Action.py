@@ -29,3 +29,15 @@ def duel(ch1, ch2):
     #PARAR DE TOCAR
     return winner
 
+def goBrasil(crazyHUE):
+    pass # faz nada, mas serve para o codigo PASSar reto
+    print("LEEEEEEEEEEEEEEEEEEEEEEEEROY JENKINS")
+    #TOCAR LEEEEROY JENKINS
+    
+    crazyHUE.maxHP = crazyHUE.maxHP / 2
+    crazyHUE.life = crazyHUE.life / 2
+    crazyHUE.atck = crazyHUE.atck * 2
+    crazyHUE.lucky = crazyHUE.lucky * 5
+
+    print("modo malandrao ativado, god mode")
+    #tocar god mode do CS    
