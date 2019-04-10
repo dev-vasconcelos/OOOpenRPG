@@ -14,4 +14,20 @@ while pedro.life > 0 and enemy.life > 0:
     battle.enemyTurn()
     battle.playerTurn()
 
+print("Andando mais a frente nota-se o quanto o mundo começa a se distorcer... VOCÊ CAIU NUM GENJUSTSY")
+time.sleep(1)
+print("preparesse para mais uma batalha!!!")
+time.sleep(1)
+
+enemy2 = chh.Character()
+enemy2.randomCharacter(2)
+while pedro.life > 0 and enemy2.life > 0:
+    print("O INIMIGO PARECE MAIS FORTE")
+    # pass # Just for me to remember this exists
+    battle = pv.PVE(pedro, enemy2)
+    battle.playerTurn()
+    battle.enemyTurn()
+
+
+
 print("CONCLUIDO")

@@ -3,10 +3,13 @@ import Action as ac
 import os
 
 class PVE:
+
+    #Construtor
     def __init__(self, player, enemy):
         self.player = player
         self.enemy = enemy
 
+    #Escritor dos status
     def printStats(self):
         print("PLAYER STATUS \n")
         print(self.player.toString())
@@ -14,7 +17,7 @@ class PVE:
         print("ENEMY STATUS \n")
         print(self.enemy.toString())
         print("  )  >-----|>")
-
+    #validador de vida
         if(self.enemy.life <= 0):
             print("PLAYER WINS")
         elif(self.player.life <= 0):
