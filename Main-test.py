@@ -1,5 +1,6 @@
 import Character as chh
 import PVE as pv
+import time
                             #      PERSONAGENS REALIZAM AÇÃO
 enemy = chh.Character()     #  Entidade personagem usando uma função que 
 enemy.randomCharacter(1)    #  não é dele em um "arquivo" que não é dele
@@ -12,3 +13,5 @@ while pedro.life > 0 and enemy.life > 0:
     battle = pv.PVE(pedro, enemy)
     battle.enemyTurn()
     battle.playerTurn()
+
+print("CONCLUIDO")
